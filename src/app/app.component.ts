@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'fitnessTimerApp';
+
+  start_counting(){
+  
+  }
+
+  pause_counting(){
+  
+  }
+
+  stop_counting(){
+  
+  }
+
 }
+
+
+
