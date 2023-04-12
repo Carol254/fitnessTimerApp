@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Timer App</title>
+</head>
+<body>
+<div class="container">
+  <h1>Fitness Timer App</h1>
+  <div class="ipt">
+    <input id="inputh" type="number" placeholder="hour">
+    <input id="inputm" type="number" placeholder="minutes">
+    <input id="inputs" type="number" placeholder="seconds">
+  </div>
+
+  <div class="btn">
+    <button id="btn-start"  (click)="start_counting()">Start</button>
+    <button id="btn-pause"  (click)="pause_counting()">Pause</button>
+    <button id="btn-stop"  (click)="stop_counting()">Stop</button>
+  </div>
+
+  <p id="currentTime"> Current Time:</p>
+</div>
+  
+</body>
+</html>
