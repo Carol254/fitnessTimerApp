@@ -10,9 +10,9 @@
 <div class="container">
   <h1>Fitness Timer App</h1>
   <div class="ipt">
-    <input id="inputh" type="number" placeholder="hour">
-    <input id="inputm" type="number" placeholder="minutes">
-    <input id="inputs" type="number" placeholder="seconds">
+    <input id="hours" type="number"    [(ngModel)="hours"   min="0" max="12" placeholder="hours">
+    <input id="minutes" type="number"  [(ngModel)="minutes" min="0"max="59"  placeholder="minutes">
+    <input id="seconds" type="number" [(ngModel)="seconds" min="0" max="59" placeholder="seconds">
   </div>
 
   <div class="btn">
